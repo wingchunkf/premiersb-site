@@ -1,0 +1,102 @@
+
+@import "mixins.less";
+
+/* ==========================================================================
+	Typography
+============================================================================= */
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0 0 1em;
+}
+
+strong {
+	color: #111;
+}
+
+pre {
+	word-break: normal;
+	word-wrap: normal;
+	border: none;
+}
+
+a {
+	&, &:focus, &:hover {
+		text-decoration: none;
+	}
+}
+
+.figure-box {
+	margin-bottom: 28px;
+	.thumbnail {
+		margin-bottom: 0;
+		.mfp-zoom {
+			display: block;
+			position: relative;
+			.fa {
+				position: absolute;
+				left: 50%; top: 50%;
+				width: 48px;
+				height: 48px;
+				font-size: 20px;
+				color: #fff;
+				line-height: 48px;
+				margin: -24px 0 0 -24px;
+				text-align: center;
+				border-radius: 6px;
+				background-color: #333;
+				background-color: rgba(51, 51, 51, 0.9);
+				opacity: 0;
+				-webkit-backface-visibility: hidden;
+				-webkit-transition: opacity .3s;
+				-moz-transition: opacity .3s;
+				transition: opacity .3s;
+			}
+		}
+		&:hover .mfp-zoom .fa {
+			opacity: 1;
+		}
+
+		.caption {
+			padding: 30px;
+			font-size: 16px;
+		}
+	}
+}
+
+/* ==========================================================================
+	Spacers
+============================================================================= */
+
+[class*="spacer-"]:after, 
+[class*="spacer-"]:before {
+	display: table;
+	line-height: 0;
+	content: '';
+}
+
+[class*="spacer-"]:after {
+	clear: both;
+}
+
+[class*="spacer-"].bordered {
+	height: 1px;
+	background-color: #eee;
+}
+
+.spacer( 10, 10, 200 );
+
+/* ==========================================================================
+	Section
+============================================================================= */
+
+.section {
+	padding: 140px 0;
+
+	+ .section {
+		border-top: 1px solid #eee;
+	}
+}
+
+.section-title {
+	margin-bottom: 2em;
+}

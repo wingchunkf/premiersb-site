@@ -1,0 +1,142 @@
+body {
+	width: 100vw;
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;
+}
+
+#main-wrap {
+	padding: 0;
+}
+
+img.center-block.tia {		 
+	width: 15em;
+	height: 22em;
+	border: 8px 16px solid white;
+	border-filter: blur(5px);
+	-moz-box-shadow:    3px 3px 5px 5px #ccc;
+  	-webkit-box-shadow: 3px 3px 5px 5px #ccc;
+  	box-shadow: 3px 3px 5px 5px #ccc;
+  	border-radius: 5px;
+	margin-bottom: 1.50em;
+	margin-top: 0.75em;
+}
+
+div.col-md-7 {
+	border: 0.5px solid gray;
+	margin-top: 1.25em;
+}
+
+.client-list {
+	height: 45vh;
+	width: 100vw;
+	background: white;
+	padding-top: 3em;
+	text-align: center;
+
+}
+
+
+
+.client-list h2 {	
+	color: white;
+	padding-bottom: 2em;	
+	font-size: 200%;
+}
+
+.col-sm-2   {
+	background-color: white;
+	text-align: center;   
+	padding: 100px 30px;
+	border-radius: 2px;
+	box-shadow: 0 6px 30px 0 rgba(0, 0, 0, 0.2);
+	
+}
+
+.col-sm-12 {
+	text-align: center;
+}
+
+.row.clients {
+	margin: 0 auto;
+}
+
+.text {
+	padding: 1.75em 2.25em 2.75em 0;
+}
+.col-md-3.service-list {
+	background: white;
+}
+
+.col-sm-3 .price {
+	height: auto;
+	background: white;
+}
+
+#showcase-projects.content {
+	padding: 20px 0;
+}
+
+#showcase-projects.medium-gray {
+	background: #777777;
+}
+
+
+
+#tia-bio-section {
+	background-color: white;
+	padding: 75px;
+	font-family: 'Raleway', sans-serif;
+}
+
+.big.name {
+	font-family: 'Raleway', sans-serif;
+	color: #3e9fbc;
+}
+
+.item.padding-l {
+	padding: 0 3em;
+}
+
+.dark-grey-background {
+	background-color: rgba(34, 34, 34, 0.6);
+	padding: 1.75em 0;
+}
+
+ h3.big.passion {
+	color: #3e9fbc;
+	font-family: 'Raleway', sans-serif;
+	padding-bottom: 1.25em;
+	margin-left: 2em;
+
+}
+
+
+
+p.passion {
+	margin-left: 2em;
+	line-height: 175%;
+}
+
+h3.white.text-center {
+	font-family: 'Raleway', sans-serif;
+	padding-top: 1.25em;
+	padding-bottom: .75em;
+}
+
+h2 .center .white .margin-bottom-small {
+	padding-top: 2em;
+}
+
+p.passion {
+	margin-left: 2em;
+	line-height: 175%;
+}
+
+@media screen and (max-width: 480px) {
+	h3 #passion-title {
+	 font-size: 2%;
+	}
+}
+
+

@@ -1,0 +1,16 @@
+/*-------------------------------------------------*/
+/* =  16.Magnific popup
+/*-------------------------------------------------*/
+
+button {
+    &.mfp-close {
+        background-color: $color-background !important;
+        color: white;
+        transition: background-color .4s ease;
+
+        &:hover {
+            background-color: $dark-background !important;
+            transition: background-color .4s ease;
+        }
+    }
+}

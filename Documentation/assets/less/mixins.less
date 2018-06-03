@@ -1,0 +1,6 @@
+.spacer( @size; @increments: 10; @max: 140; ) when( @size <= @max ) {
+	.spacer-@{size} {
+		margin: unit(round(@size / 2), px)  0;
+	}
+	.spacer( @size + @increments; @increments; @max );
+}
